@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/favicon.ico">
+
+    <title>AWS Developer: Optimizing on AWS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/navbar.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <div class="container">
+
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <p>
+            <p>Current time at....</p>
+            <select id="region">
+              <option value="">Select...</option>
+            {% for key in zones.keys() %}
+             <option {% if region==key %}selected{% endif %} value="{{key}}">{{zones[key]['Title']}}</option>
+            {% endfor %}
+            </select>
+        </p>
+        <p>
+          {{current_time.now if current_time != None }}
+        </p>
+      </div>
+
+    </div> <!-- /container -->
+
+  <footer class="footer">
+    <div class="container">
+      <small>{{hostname}}</small>
+    </div>
+  </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+          $('#region').change(function() {
+            document.location = "/" + $('#region').val();
+          })
+        })
+    </script>
+  </body>
+</html>

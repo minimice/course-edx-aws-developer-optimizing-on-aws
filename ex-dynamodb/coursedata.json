@@ -1,0 +1,417 @@
+[
+    {
+        "subject": "Accounting",
+		"school": "Graduate School of Business",
+		"course_name": "Managerial Accounting: Base",
+        "info": {
+            "code": "ACCT212",			
+            "units": 2,
+            "terms": [
+                "Autumn",
+                "Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search;jsessionid=4a5xwzlk3s7p1v7c9ov2sgohm?view=catalog&academicYear=&page=0&q=ACCT&filter-departmentcode-ACCT=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "This course provides an introduction to the concepts and tools of managerial accounting.",
+            "grading": "GSB Letter Graded",
+			"notes": "Case and Problem Discussion.P/F Not Allowed. Open to MBA1 students.",
+            "instructors": [
+                "Marinovic, I. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Accounting",
+        "school": "Graduate School of Business",
+        "course_name": "Individual Taxes and Financial Planning",
+        "info": {
+            "code": "ACCT 524",
+			"units": 2,
+            "terms": [
+                "Autumn",
+                "Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search;jsessionid=4a5xwzlk3s7p1v7c9ov2sgohm?view=catalog&academicYear=&page=0&q=ACCT&filter-departmentcode-ACCT=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "The goal of this course is to provide a fundamental understanding of the principles of taxation and tax planning as they relate to personal income taxes and considering an individuals financial position.",
+            "grading": "GSB Student Option LTR/PF",
+			"notes": "No Exam. Case and Problem Discussion. 1 Group Project/Paper.",
+            "instructors": [
+                "De Simone, L. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Accounting",
+        "school": "Graduate School of Business",        
+		"course_name": "Doctoral Practicum in Teaching",
+        "info": {
+            "code": "ACCT 698",
+			"units": 1,
+            "terms": [
+                "Autumn",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search;jsessionid=4a5xwzlk3s7p1v7c9ov2sgohm?view=catalog&academicYear=&page=0&q=ACCT&filter-departmentcode-ACCT=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "Doctoral Practicum in Teaching",
+            "grading": "GSB Letter Graded",
+			"notes": "Open to GSB PhD students.",
+            "instructors": [
+                 "Barth, M. (PI)",
+				 "Beyer, A. (PI)",
+				 "Blankespoor, E. (PI)",
+				 "Choi, J. (PI)",
+				 "De Simone, L. (PI)",
+				 "Foster, G. (PI)",
+				 "Gipper, B. (PI)" 
+            ]
+        }
+    },
+	{
+		"subject": "Accounting",
+        "school": "Graduate School of Business",
+        "course_name": "Managerial Accounting: Performance Measurement, Compensation, and Governance",
+        "info": {
+            "code": "ACCT 317",			
+            "units": 3,
+            "terms": [
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search;jsessionid=4a5xwzlk3s7p1v7c9ov2sgohm?view=catalog&academicYear=&page=0&q=ACCT&filter-departmentcode-ACCT=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "The course will examine the academic and professional controversies surrounding corporate governance and executive compensation.",
+            "grading": "GSB Letter Graded",
+			"notes": "Open to GSB PhD students. Seminar. Mandatory attendance. Absences impact grade.",
+            "instructors": [
+                "Larcker, D. (PI)",
+				"Donatiello, N. (SI)"
+            ]
+        }
+    },
+	{
+		"subject": "Marketing",
+        "school": "Graduate School of Business",
+        "course_name": "Applied Behavioral Economics",
+        "info": {
+            "code": "MKTG 337",			
+            "units": 3,
+            "terms": [
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=MKTG&filter-departmentcode-MKTG=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "In this course, we will examine topics such as the irrational patterns of how people think about products, money and investments, designing strategies and offerings to change behavior, and the drivers of happiness and the role of emotions in decision-making.",
+			"grading": "GSB Letter Graded",
+			"notes": "No Exam. Case and Problem Discussion. P/F Not Allowed.",
+            "instructors": [
+                "Simonson, I. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Marketing",
+        "school": "Graduate School of Business",
+        "course_name": "Humor: Serious Business",
+        "info": {
+            "code": "MKTG 346",			
+            "units": 3,
+            "terms": [
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=MKTG&filter-departmentcode-MKTG=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "This class is about the power (and importance) of humor to make and scale positive change in the world.",
+			"grading": "GSB Pass/Fail",
+			"notes": "No Exam. Workshop. Grading distribution will be announced by Prof.",
+            "instructors": [
+                "Aaker, J. (PI)",
+				"Bagdonas, N. (SI)"
+            ]
+        }
+    },
+	{
+		"subject": "Electrical Engineering",
+        "school": "School of Engineering",
+        "course_name": "Modern Physics for Engineers",
+        "info": {
+            "code": "EE 65",			
+            "units": 4,
+            "terms": [                
+                "Spring"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=EE&filter-departmentcode-EE=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "This course introduces the core ideas of modern physics that enable applications ranging from solar energy and efficient lighting to the modern electronic and optical devices and nanotechnologies that sense, process, store, communicate and display all our information. ",
+			"grading": "Letter (ABCD/NP)",
+			"notes": "None",
+            "instructors": [
+                "Heinz, T. (PI)",
+				"Anema, P. (TA)",
+				"Barre, E. (TA)",
+				"Deng, M. (TA)"
+            ]
+        }
+    },
+	{
+		"subject": "Electrical Engineering (EE)",
+        "school": "School of Engineering",
+        "course_name": "Signal Processing and Linear Systems II",
+        "info": {
+            "code": "EE 102B",			
+            "units": 4,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=EE&filter-departmentcode-EE=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "Concepts and tools for continuous- and discrete-time signal and system analysis with applications in communications, signal processing and control.",
+			"grading": " Letter or Credit/No Credit",
+			"notes": "None",
+            "instructors": [
+                "Goldsmith, A. (PI)",
+				"Bindhi, M. (TA)",
+				"Dean, J. (TA)",
+				"Murray, G. (TA)"
+            ]
+        }
+    },
+	{
+		"subject": "Computer Science (CS)",
+        "school": "School of Engineering",
+        "course_name": "AI for Social Good",
+        "info": {
+            "code": "CS 21SI",			
+            "units": 2,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=CS&filter-departmentcode-CS=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "Students will learn about and apply cutting-edge artificial intelligence techniques to real-world social good spaces (such as healthcare, government, education, and environment). ",
+			"grading": "Satisfactory/No Credit",
+			"notes": "Student-initiated course. Enrollment limited to 20.",
+            "instructors": [
+                "Piech, C. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Computer Science (CS)",
+        "school": "School of Engineering",
+        "course_name": "Introduction to Computing Principles",
+        "info": {
+            "code": "CS 101",			
+            "units": 5,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=CS&filter-departmentcode-CS=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "Introduces the essential ideas of computing: data representation, algorithms, programming code, computer hardware, networking, security, and social issues.",
+			"grading": "Letter or Credit/No Credit",
+			"notes": "May be taken for 3 units by graduate students.",
+            "instructors": [
+                "Taylor, A. (PI)",
+				"Conklin, T. (TA)"
+            ]
+        }
+    },
+	{
+		"subject": "Earth, Energy, and Environmental Sciences (EARTH)",
+        "school": "School of Earth, Energy and Environmental Sciences",
+        "course_name": "Know Your Planet: Science Outside",
+        "info": {
+            "code": "EARTH 1C",			
+            "units": 1,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=EARTH&filter-departmentcode-EARTH=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "students will learn and implement hands-on skills for conducting research in the field, that is, outdoors in the natural environment.",
+			"grading": "Satisfactory/No Credit",
+			"notes": "None",
+            "instructors": [
+                "Petterson, R. (PI)",
+				"Yau, A. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Earth, Energy, and Environmental Sciences (EARTH)",
+        "school": "School of Earth, Energy and Environmental Sciences",
+        "course_name": "Geokids: Earth Sciences Education",
+        "info": {
+            "code": "EARTH 5",			
+            "units": 1,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=EARTH&filter-departmentcode-EARTH=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "Service learning through the Geokids program. Eight weeks of supervised teaching to early elementary students about Earth sciences. Hands-on teaching strategies for science standards-based instruction.",
+			"grading": "Satisfactory/No Credit",
+			"notes": "None",
+            "instructors": [
+                "Saltzman, J. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Human Biology (HUMBIO)",
+        "school": "School of Humanities & Sciences",
+        "course_name": "The Human Organism",
+        "info": {
+            "code": "HUMBIO 4A",			
+            "units": 5,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=HUMBIO&filter-departmentcode-HUMBIO=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "Integrative Physiology: Neurobiology, endocrinology, and organ system function, control, and regulation.",
+			"grading": "Letter or Credit/No Credit",
+			"notes": "HUMBIO 4A and 4B must be taken concurrently. ",
+            "instructors": [
+                "Fernald, R. (PI)",
+				"Heller, H. (PI)",
+				"Fisher, A. (TA)",
+				"Song, S. (TA)",
+				"Sooklal, S. (TA)",
+				"Williams, J. (TA)"
+            ]
+        }
+    },
+	{
+		"subject": "Human Biology (HUMBIO)",
+        "school": "School of Humanities & Sciences",
+        "course_name": "Science Education in Human Biology",
+        "info": {
+            "code": "HUMBIO 5E",			
+            "units": 1,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=HUMBIO&filter-departmentcode-HUMBIO=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "In this seminar, students will become familiar with research on science education.",
+			"grading": "Satisfactory/No Credit",
+			"notes": "Enrollment limited to 15. Prerequisite HumBio Core or equivalent.",
+            "instructors": [
+                "Salmeen, A. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Law (LAW)",
+        "school": "Law School",
+        "course_name": "Federal Litigation in a Global Context: Methods and Practice",
+        "info": {
+            "code": "LAW 224B",			
+            "units": 2,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=LAW&filter-departmentcode-LAW=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "This course is part of the required first-year JD curriculum. It is an introductory course in the litigation process.",
+			"grading": " Law Honors/Pass/Restrd Cr/Fail",
+			"notes": "First Year Required Course.",
+            "instructors": [
+                "Alexander, Y. (PI)",
+				"Bargzie, N. (PI)",
+				"Duranske, S. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Law (LAW)",
+        "school": "Law School",
+        "course_name": "Research Track",
+        "info": {
+            "code": "LAW 406",			
+            "units": 12,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring",
+                "Summer"
+            ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=LAW&filter-departmentcode-LAW=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "The Research Track is for students who wish to carry out a research project of a scope larger than that contemplated for a Senior Thesis.",
+			"grading": "Law Mixed H/P/R/F or MP/R/F",
+			"notes": "Law Unit Limitation.",
+            "instructors": [
+                "Gordon, R. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Medicine (MED)",
+        "school": "School of Medicine",
+        "course_name": "Physician Shadowing: Stanford Immersion in Medicine Series (SIMS)",
+        "info": {
+            "code": "MED 160",			
+            "units": 1,
+            "terms": [                
+                "Autumn",
+				"Winter",
+                "Spring"
+                ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=MED&filter-departmentcode-MED=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "Undergraduates are paired with a physician mentor at Stanford Hospital and Clinics, Lucile Packard Children's Hospital, or the Veteran's Administration Hospital. ",
+			"grading": "Satisfactory/No Credit",
+			"notes": "None",
+            "instructors": [
+                "Gesundheit, N. (PI)",
+				"Levin, E. (PI)",
+				"Lewis, P. (PI)",
+				"Williams, R. (PI)"
+            ]
+        }
+    },
+	{
+		"subject": "Medicine (MED)",
+        "school": "School of Medicine",
+        "course_name": "Community Health Advocacy",
+        "info": {
+            "code": "MED 161C",			
+            "units": 3,
+            "terms": [                
+                "Spring"
+                ],
+            "course_url": "http://explorecourses.stanford.edu/search?view=catalog&academicYear=&page=0&q=MED&filter-departmentcode-MED=on&filter-coursestatus-Active=on&filter-term-Spring=on",
+            "description": "Third of a three-quarter course series that provides students with knowledge and concrete skills for working with and advocating for underserved populations.",
+			"grading": "Letter (ABCD/NP)",
+			"notes": "Class meets in LK101",
+            "instructors": [
+                "Curran, N. (PI)",
+				"Garcia, G. (PI)",
+				"Newberry, J. (PI)"
+            ]
+        }
+    }
+]

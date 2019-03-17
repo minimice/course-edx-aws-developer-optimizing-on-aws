@@ -1,0 +1,32 @@
+
+service: api-service
+
+provider:
+  name: aws
+  runtime: python3.6
+  region: us-west-2
+
+plugins:
+  - serverless-python-requirements
+
+functions:
+  get_zones:
+    handler: handler.get_zones
+    events:
+      - http:
+          path: v1.0/get_zones
+          method: get
+          cors: true
+
+  get_current_time:
+    handler: handler.get_current_time
+    events:
+      - http:
+          # In order for path variables to work, API Gateway also needs them in the method path itself
+          path: v1.0/get_current_time/{region}
+          method: get
+          cors: true
+          request:
+            parameters:
+              paths:
+                region: true

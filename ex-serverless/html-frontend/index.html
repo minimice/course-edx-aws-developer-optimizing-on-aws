@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AWS Developer: Optimizing on AWS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <div class="container">
+
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <p>
+            <p>Current time at....</p>
+            <select id="region">
+              <option value="">Select...</option>
+            </select>
+        </p>
+        <p id="time">
+        </p>
+      </div>
+
+    </div> <!-- /container -->
+
+  <footer class="footer">
+    <div class="container">
+      <small></small>
+    </div>
+  </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="apiGateway-js-sdk/apigClient.js"></script>
+
+    <script>
+        var apigClient = apigClientFactory.newClient();
+
+        $(function() {
+            $('#region').change(function() {
+                var region = $('#region').val();
+                if (region == '') {
+                    $('#time').html('');
+                    return;
+                }
+
+                apigClient.v10GetCurrentTimeRegionGet({'region':region})
+                  .then(function(result){
+                    $('#time').html(result.data.now);
+                  });
+
+            })
+
+            apigClient.v10GetZonesGet()
+                .then(function(result){
+                  for(var key in result.data.zones) {
+                      $('#region').append($('<option>', {
+                          value: key,
+                          text : result.data.zones[key].Title
+                      }));
+                  }
+                });
+        })
+    </script>
+  </body>
+</html>

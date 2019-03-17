@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/favicon.ico">
+
+    <title>AWS Developer: Optimizing on AWS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/navbar.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<p>
+				<a class="btn" href="/">Home »</a>
+				<a class="btn" href="{{ url_for('clear_cache') }}">Clear Cache »</a>
+			</p>
+      <p>
+        {% for filter in filters %}
+        <span class="badge badge-primary">{{filter.Field}}: {{filter.Value}}</span>
+        {% endfor %}
+      </p>
+			<p>
+        {% for instance_type in instance_types %}
+        <a href="{{instance_type}}" class="btn btn-default" style="width:150px">
+          {{instance_type}}
+          {% if instance_type == selected_instance_type %}&#x25CF;{% endif %}
+        </a>
+        {% endfor %}
+			</p>
+			
+      <hr/>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-6">
+      {% for price_dimension in price_dimensions %}
+        <h3>{{price_dimension.description}}</h3>
+      {% endfor %}
+      
+          {% if attributes is defined  %}
+          <table class="table table-condensed">
+            <tbody>
+            {% for key in attributes.keys() %}
+            <tr><td>{{key}}</td><td>{{attributes[key]}}</td></tr>
+            {% endfor %}
+            </tbody>
+          </table>
+          {% endif %}
+		</div>
+		<div class="col-md-6">
+      <div class="mermaid">
+      {{sequence}}
+      </div>
+		</div>
+  </div>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ theme: 'forest', sequenceDiagram: { mirrorActors: false } });
+
+    </script>
+
+  </body>
+</html>
